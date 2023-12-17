@@ -1,0 +1,43 @@
+.main-container {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    height: 500px;
+}
+
+.current-task, .start-tasks, .stop-watch {
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
+
+.task-buttons {
+    padding: 20px;
+    color: white;
+    background-color: black;
+    outline: 0;
+    border-radius: 10px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 1s ease;
+}
+
+.task-buttons:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 1s ease;
+
+}
